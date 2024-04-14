@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/styles.css"></link>
+    
+    <!-- Main JS -->
+    <script src="main.js"></script>
+    
+    <!-- Scroll reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi! I'm</h3>
+            <h1>Avnee Sharma</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Welcome to my portfolio! I'm a third-year Computer Science Engineering student at Thapar University with a passion for web development.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/avnee.sharma.735/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/avnee_23/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/avnee23"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/avneesharma230103/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="myResume.pdf" class="btn" id="download-cv-btn" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="myPic.jpeg" height="500px" width="500px">
+        </div>
+
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="myPic.jpeg">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Fullstack Developer</h3>
+            <p>Enthusiastic third-year Computer Science Engineering student at Thapar University, with a strong focus on web development. Dedicated to mastering HTML, CSS, JavaScript, and beyond, I thrive on challenges and innovation in the dynamic world of coding. Eager to contribute my skills and drive to real-world projects, pushing the boundaries of what's possible in web development.</p>
+            <!-- <a href="#" class="btn">Read more</a> -->
+        </div>
+    </section>
+
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>As a beginner in UI/UX design, I am currently learning Adobe XD and Figma to enhance my skills. </p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>As an intermediate frontend developer, I'm proficient in HTML, CSS, JavaScript, React, and Bootstrap, crafting responsive and dynamic web interfaces with hands-on expertise.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Backend Development</h3>
+                <p>As an intermediate backend developer, I'm skilled in SQL and MongoDB, proficient at constructing resilient backend systems for scalable applications.</p>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+
+            <!-- <div class="portfolio-box">
+                <img src="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem quas debitis quidem asperiores vel, impedit saepe odio corporis ratione voluptate rem iusto expedita ut laboriosam fuga aspernatur sint a.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div> -->
+
+            <div class="portfolio-box">
+                <img src="image.png">
+                <div class="portfolio-layer">
+                    <h4>Lost and Found Website</h4>
+                    <p>Our Lost and Found website simplifies the process of reporting lost items and searching for found ones. Users can easily report lost belongings and search through a database of found items, streamlining the process of reuniting lost possessions with their rightful owners.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a9655279-f90f-4da8-99b4-a69cb2fc7b99">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="phoneno"placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
