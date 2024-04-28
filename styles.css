@@ -97,9 +97,9 @@ span{
 }
 
 .home-img img{
-    width: 30vw;
+    width: 26vw;
     animation: floatImage 4s ease-in-out infinite;
-    height: 30vw;
+    height: 27vw;
     border-radius: 50%;
 }
 
